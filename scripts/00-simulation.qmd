@@ -1,0 +1,44 @@
+---
+#### Preamble ####
+# Purpose: Simulate the data of Toronto Miscellaneous Calles for service
+# graph of the number of 2021
+# Author: Rae Zhang
+# Email: junwei.zhang@mail.utoronto.ca
+# Date: 29 January 2023
+# Prerequisites: Need to know where to get Toronto Miscellaneous Calls Data
+---
+
+## Simulation
+
+Simulate the data
+
+```{r}
+#### Workspace set-up ####
+# install.packages("tidyverse") # Could just be removed
+# install.packages("janitor") # This also
+
+library(tidyverse) # A collection of data-related packages
+library(janitor) # Helps clean datasets
+```
+
+```{r}
+simulated_data <-
+  tibble(
+    # Use 1 through to 151 to represent each division
+    "count" = 1:2278,
+    # Randomly pick an options, with replacement, 151 times
+    "Type" = sample(
+      x = c(
+        "Arabic",
+        "Chinese",
+        "Croatian",
+        "British",
+        "Spain"
+      ),
+      size = 2278,
+      replace = TRUE
+    )
+  )
+
+simulated_data
+```

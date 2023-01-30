@@ -1,0 +1,209 @@
+_id,ObjectId,Year,Category,Type,Count_
+1,1,2021,Languages,Arabic,370
+2,2,2021,Languages,Chinese,2278
+3,3,2021,Languages,Croatian,8
+4,4,2021,Languages,Farsi,325
+5,5,2021,Languages,French,378
+6,6,2021,Languages,German,6
+7,7,2021,Languages,Greek,33
+8,8,2021,Languages,Hindi,50
+9,9,2021,Languages,Hungarian,233
+10,10,2021,Languages,Italian,115
+11,11,2021,Languages,Japanese,10
+12,12,2021,Languages,Korean,162
+13,13,2021,Languages,Polish,65
+14,14,2021,Languages,Portuguese,214
+15,15,2021,Languages,Punjabi,100
+16,16,2021,Languages,Russian,267
+17,17,2021,Languages,Somali,107
+18,18,2021,Languages,Spanish ,945
+19,19,2021,Languages,Tamil,299
+20,20,2021,Languages,Turkish,69
+21,21,2021,Languages,Urdu,41
+22,22,2021,Languages,Vietnamese,260
+23,23,2020,Languages,Arabic,205
+24,24,2020,Languages,Chinese,2080
+25,25,2020,Languages,Croatian,3
+26,26,2020,Languages,Farsi,271
+27,27,2020,Languages,French,282
+28,28,2020,Languages,German,1
+29,29,2020,Languages,Greek,37
+30,30,2020,Languages,Hindi,33
+31,31,2020,Languages,Hungarian,176
+32,32,2020,Languages,Italian,144
+33,33,2020,Languages,Japanese,16
+34,34,2020,Languages,Korean,178
+35,35,2020,Languages,Polish,118
+36,36,2020,Languages,Portuguese,189
+37,37,2020,Languages,Punjabi,85
+38,38,2020,Languages,Russian,264
+39,39,2020,Languages,Somali,67
+40,40,2020,Languages,Spanish ,762
+41,41,2020,Languages,Tamil,247
+42,42,2020,Languages,Turkish,54
+43,43,2020,Languages,Urdu,34
+44,44,2020,Languages,Vietnamese,127
+45,45,2019,Languages,Arabic,213
+46,46,2019,Languages,Chinese,2682
+47,47,2019,Languages,Croatian,5
+48,48,2019,Languages,Farsi,278
+49,49,2019,Languages,French,337
+50,50,2019,Languages,German,2
+51,51,2019,Languages,Greek,28
+52,52,2019,Languages,Hindi,52
+53,53,2017,Languages,Somali,106
+54,54,2017,Languages,Spanish ,588
+55,55,2017,Languages,Tamil,343
+56,56,2017,Languages,Turkish,32
+57,57,2017,Languages,Urdu,31
+58,58,2017,Languages,Vietnamese,161
+59,59,2016,Languages,Arabic,144
+60,60,2016,Languages,Chinese,2420
+61,61,2016,Languages,Croatian,11
+62,62,2016,Languages,Farsi,165
+63,63,2016,Languages,French,265
+64,64,2016,Languages,German,13
+65,65,2016,Languages,Greek,46
+66,66,2016,Languages,Hindi,38
+67,67,2016,Languages,Hungarian,277
+68,68,2016,Languages,Italian,135
+69,69,2016,Languages,Japanese,27
+70,70,2016,Languages,Korean,233
+71,71,2016,Languages,Polish,123
+72,72,2016,Languages,Portuguese,229
+73,73,2016,Languages,Punjabi,57
+74,74,2016,Languages,Russian,220
+75,75,2016,Languages,Somali,70
+76,76,2016,Languages,Spanish ,492
+77,77,2016,Languages,Tamil,278
+78,78,2016,Languages,Turkish,43
+79,79,2016,Languages,Urdu,20
+80,80,2016,Languages,Vietnamese,143
+81,81,2015,Languages,Arabic,110
+82,82,2015,Languages,Chinese,2335
+83,83,2015,Languages,Croatian,5
+84,84,2015,Languages,Farsi,149
+85,85,2015,Languages,French,212
+86,86,2015,Languages,German,5
+87,87,2015,Languages,Greek,58
+88,88,2015,Languages,Hindi,34
+89,89,2015,Languages,Hungarian,148
+90,90,2015,Languages,Italian,110
+91,91,2015,Languages,Japanese,28
+92,92,2015,Languages,Korean,174
+93,93,2015,Languages,Polish,98
+94,94,2015,Languages,Portuguese,149
+95,95,2015,Languages,Punjabi,59
+96,96,2015,Languages,Russian,245
+97,97,2015,Languages,Somali,39
+98,98,2015,Languages,Spanish ,468
+99,99,2015,Languages,Tamil,308
+100,100,2015,Languages,Turkish,42
+101,101,2015,Languages,Urdu,17
+102,102,2015,Languages,Vietnamese,154
+103,103,2014,Languages,Arabic,98
+104,104,2014,Languages,Chinese,2069
+105,105,2019,Languages,Hungarian,204
+106,106,2019,Languages,Italian,158
+107,107,2019,Languages,Japanese,51
+108,108,2019,Languages,Korean,232
+109,109,2019,Languages,Polish,92
+110,110,2019,Languages,Portuguese,234
+111,111,2019,Languages,Punjabi,218
+112,112,2019,Languages,Russian,238
+113,113,2019,Languages,Somali,71
+114,114,2019,Languages,Spanish ,756
+115,115,2019,Languages,Tamil,265
+116,116,2019,Languages,Turkish,50
+117,117,2019,Languages,Urdu,55
+118,118,2019,Languages,Vietnamese,179
+119,119,2018,Languages,Arabic,188
+120,120,2018,Languages,Chinese,2895
+121,121,2018,Languages,Croatian,8
+122,122,2018,Languages,Farsi,216
+123,123,2018,Languages,French,336
+124,124,2018,Languages,German,4
+125,125,2018,Languages,Greek,57
+126,126,2018,Languages,Hindi,40
+127,127,2018,Languages,Hungarian,191
+128,128,2018,Languages,Italian,126
+129,129,2018,Languages,Japanese,43
+130,130,2018,Languages,Korean,190
+131,131,2018,Languages,Polish,89
+132,132,2018,Languages,Portuguese,243
+133,133,2018,Languages,Punjabi,232
+134,134,2018,Languages,Russian,246
+135,135,2018,Languages,Somali,87
+136,136,2018,Languages,Spanish ,666
+137,137,2018,Languages,Tamil,394
+138,138,2018,Languages,Turkish,64
+139,139,2018,Languages,Urdu,51
+140,140,2018,Languages,Vietnamese,205
+141,141,2017,Languages,Arabic,201
+142,142,2017,Languages,Chinese,2474
+143,143,2017,Languages,Croatian,7
+144,144,2017,Languages,Farsi,214
+145,145,2017,Languages,French,276
+146,146,2017,Languages,German,10
+147,147,2017,Languages,Greek,79
+148,148,2017,Languages,Hindi,57
+149,149,2017,Languages,Hungarian,217
+150,150,2017,Languages,Italian,129
+151,151,2017,Languages,Japanese,28
+152,152,2017,Languages,Korean,194
+153,153,2017,Languages,Polish,94
+154,154,2017,Languages,Portuguese,190
+155,155,2017,Languages,Punjabi,72
+156,156,2017,Languages,Russian,223
+157,157,2014,Languages,Croatian,12
+158,158,2014,Languages,Farsi,165
+159,159,2014,Languages,French,171
+160,160,2014,Languages,German,7
+161,161,2014,Languages,Greek,25
+162,162,2014,Languages,Hindi,12
+163,163,2014,Languages,Hungarian,173
+164,164,2014,Languages,Italian,110
+165,165,2014,Languages,Japanese,43
+166,166,2014,Languages,Korean,175
+167,167,2014,Languages,Polish,69
+168,168,2014,Languages,Portuguese,147
+169,169,2014,Languages,Punjabi,46
+170,170,2014,Languages,Russian,201
+171,171,2014,Languages,Somali,30
+172,172,2014,Languages,Spanish ,493
+173,173,2014,Languages,Tamil,235
+174,174,2014,Languages,Turkish,39
+175,175,2014,Languages,Urdu,19
+176,176,2014,Languages,Vietnamese,157
+177,177,2021,Calls Received,Emergency,1101970
+178,178,2021,Calls Received,Non-Emergency,647004
+179,179,2020,Calls Received,Emergency,1039663
+180,180,2020,Calls Received,Non-Emergency,642445
+181,181,2019,Calls Received,Emergency,1136123
+182,182,2019,Calls Received,Non-Emergency,807256
+183,183,2018,Calls Received,Emergency,1094182
+184,184,2018,Calls Received,Non-Emergency,838363
+185,185,2017,Calls Received,Emergency,996467
+186,186,2017,Calls Received,Non-Emergency,848711
+187,187,2016,Calls Received,Emergency,962722
+188,188,2016,Calls Received,Non-Emergency,843538
+189,189,2015,Calls Received,Emergency,991872
+190,190,2015,Calls Received,Non-Emergency,806024
+191,191,2014,Calls Received,Emergency,1075770
+192,192,2014,Calls Received,Non-Emergency,850420
+193,193,2021,Alarm Calls,Valid Alarms,819
+194,194,2021,Alarm Calls,False Alarms,4446
+195,195,2020,Alarm Calls,Valid Alarms,781
+196,196,2020,Alarm Calls,False Alarms,5075
+197,197,2019,Alarm Calls,Valid Alarms,775
+198,198,2019,Alarm Calls,False Alarms,5978
+199,199,2018,Alarm Calls,Valid Alarms,787
+200,200,2018,Alarm Calls,False Alarms,11629
+201,201,2017,Alarm Calls,Valid Alarms,608
+202,202,2017,Alarm Calls,False Alarms,18120
+203,203,2016,Alarm Calls,Valid Alarms,526
+204,204,2016,Alarm Calls,False Alarms,21538
+205,205,2015,Alarm Calls,Valid Alarms,509
+206,206,2015,Alarm Calls,False Alarms,22653
+207,207,2014,Alarm Calls,Valid Alarms,436
+208,208,2014,Alarm Calls,False Alarms,23914
