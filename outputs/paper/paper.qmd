@@ -1,32 +1,117 @@
 ---
-title: "Visualizing Toronto Miscellanueous Calls Data in 5 Years"
-Purpose: Get data on 2021 homeless shelter usage and make table
-Author: Rae Zhang
-Email: junwei.zhang@mail.utoronto.ca
-Date: 29 January 2023
-Prerequisites: n/a
+title: "My title"
+subtitle: "My subtitle if needed"
+author: 
+  - First author
+  - Another author
+thanks: "Code and data are available at: LINK."
+date: "`r Sys.time()`"
+date-format: "D MMMM YYYY"
+abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
 format: pdf
-Abstract: "Toronto is Canada's largest city and is North America's fifth most populous municipality – with a population of 2.9 million people. In such a large city, it is very important to keep the track of 911 calling data to make sure the toronto police station have enough operators to solve emergencies. Upon further examination of data collected from the Open Data Portal of the City of Toronto, it was easy to find interesting trends in 911 calling services from year 2014 to 2021. I found trends in __________ . This paper attempts to visualize the trends as well as touch some problems that might to extract real meaning from the data."
+bibliography: references.bib
 ---
 
-## 1 Introduction
+```{r}
+#| include: FALSE
 
-As one of the largest municipal police services in North America, Toronto Police Service and its Communications Centre serve the city with the largest population in Canada. The call centre answers all emergency 9-1-1 calls for police, fire and ambulance across the city. Operators are responsible for transferring to the appropriate emergency response team, dispatching police services when required, and assigning a priority level to the call.
+knitr::opts_chunk$set(echo = TRUE)
 
-The data about Toronto Emergency Call Centre is indispensable in helping improve the responding speed. Understanding who is calling, the types of phone calls that were receiving, the changes that occurs in different years, can help the Toronto Police Service better respond emergencies that happens in the city, and ensure a relatively safe and trusting environment for every member who lives and works at Toronto. The access of open source dataset also helps transparency, promote trust and gain meaningful insights from the data, while doing so in a secure and compliant environment.
+library(tidyverse)
+library(palmerpenguins)
+```
 
-The remainder of this paper is structured as follows: Section 2 covers the data source and analysis methodology employed. Section 3 then examines key dimensions of the data, proposing conclusions and areas of further exploration.
 
-## 2 Data
+# Introduction
 
-### 2.1 Data Source
+You can and should cross-reference sections and sub-sections. For instance, Section \@ref(data). Quarto automatically makes the sections lower case and adds a dash to spaces to generate labels, for instance, Section \@ref(first-discussion-point). 
 
-This report examines Toronto's Miscellaneous Calls for Service from 2014 to 2021. This data is provided by the Toronto Police Service. Toronto Police Service is committed to the ongoing release of open data for public safety, awareness, greater openness and transparency. This specific dataset includes the following categories of data including languages, calls received, and alarm calls for 2014 -- 2021. The R package opendatatoronto (Gelfand 2020) was used to obtain all relevant data.
 
-### 2.2 Data Collection
 
-The source of the information provided in the ASR is derived from Versadex, the Toronto Police Service records management system. Currently in Versadex, records are available for extraction January 1, 2014 onwards. The calling data comes from a combination of an automated and manual systems maintained by the operator units responsible.
+# Data
 
-The system recorded the call counts that are catagorized by different type of the reports, is it a valid or false alarm, as well as the type of the call, is it an emergency, non-emergency, or a multi-language report, including: Arabic, Chinese, Croatian, Farsi, French, German, Greek, Hindi, Hungarian, etc.
+Our data is of penguins (@fig-bills).
 
-### 2.2 Data Analysis
+```{r}
+#| label: fig-bills
+#| fig-cap: Bills of penguins
+#| echo: false
+
+ggplot(penguins, aes(x = island, fill = species)) +
+  geom_bar(alpha = 0.8) +
+  scale_fill_manual(values = c("darkorange","purple","cyan4"),
+                    guide = "none") +
+  theme_minimal() +
+  facet_wrap(~species, ncol = 1) +
+  coord_flip()
+```
+
+Talk more about it.
+
+Also bills and their average (@fig-billssssss). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work.)
+
+```{r}
+#| label: fig-billssssss
+#| fig-cap: More bills of penguins
+#| echo: false
+#| fig-width: 8
+#| fig-height: 4
+
+ggplot(penguins, aes(x = island, fill = species)) +
+  geom_bar(alpha = 0.8) +
+  scale_fill_manual(values = c("darkorange","purple","cyan4"),
+                    guide = FALSE) +
+  theme_minimal() +
+  facet_wrap(~species, ncol = 1) +
+  coord_flip()
+```
+
+Talk way more about it. 
+
+
+
+# Model
+
+$$
+Pr(\theta | y) = \frac{Pr(y | \theta) Pr(\theta)}{Pr(y)}
+$$ {#eq-bayes}
+
+@eq-bayes seems useful, eh?
+
+Here's a dumb example of how to use some references: In paper we run our analysis in `R` [@citeR]. We also use the `tidyverse` which was written by @thereferencecanbewhatever If we were interested in baseball data then @citeLahman could be useful. 
+
+We can use maths by including latex between dollar signs, for instance $\theta$.
+
+
+# Results
+
+# Discussion
+
+## First discussion point
+
+If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
+
+## Second discussion point
+
+## Third discussion point
+
+## Weaknesses and next steps
+
+Weaknesses and next steps should also be included.
+
+\newpage
+
+\appendix
+
+# Appendix {-}
+
+
+# Additional details
+
+
+\newpage
+
+
+# References
+
+
